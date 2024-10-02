@@ -1,0 +1,15 @@
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 200px;
+  background-color: aqua;
+}
+.first-item {
+  background-color: red;
+  padding: 20px;
+  margin: 30px;
+  border: 2px solid red;
+  flex-grow: 1;
+  flex-shrink: 2;
+}
