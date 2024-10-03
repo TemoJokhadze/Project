@@ -1,15 +1,36 @@
-.flex {
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+body {
+  background-color: #d5e1ef;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
-  height: 200px;
-  background-color: aqua;
+  flex-direction: column;
+  font-family: outfit;
 }
-.first-item {
-  background-color: red;
-  padding: 20px;
-  margin: 30px;
-  border: 2px solid red;
-  flex-grow: 1;
-  flex-shrink: 2;
+img {
+  width: 288px;
+  height: 288px;
+  border-radius: 10px;
+}
+.cont {
+  background-color: #ffff;
+  width: 320px;
+  height: 497px;
+  border-radius: 20px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cont3 {
+  margin-left: 25px;
+  
+}
+.cont4 {
+  width: 256px;
+  height: 57px;
+  top: 72px;
+  left: 16px;
+  margin-bottom: 40px;
 }
